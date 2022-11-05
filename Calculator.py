@@ -12,7 +12,7 @@ def clickme(number):
 
 
 
-
+''' function addition number '''
 def button_add():
     first_number = my_entry.get()
     global f_num
@@ -21,6 +21,7 @@ def button_add():
     f_num=first_number
     my_entry.delete(0,END)
 
+''' function subtract number '''
 def button_subtract():
     first_number = my_entry.get()
     global f_num
@@ -29,6 +30,7 @@ def button_subtract():
     f_num=first_number
     my_entry.delete(0,END)
 
+''' function multiply number '''
 def button_multiply():
     first_number = my_entry.get()
     global f_num
@@ -38,7 +40,7 @@ def button_multiply():
     my_entry.delete(0,END)
 
 
-
+''' function divide number '''
 def button_divide():
     first_number = my_entry.get()
     global f_num
@@ -48,7 +50,7 @@ def button_divide():
     my_entry.delete(0,END)
 
 
-    
+''' function equal number '''
 def button_equal():
     second_number = my_entry.get()
     my_entry.delete(0,END)
@@ -63,7 +65,7 @@ def button_equal():
     my_entry.insert(0,total)
 
 
-
+''' function clear  '''
 def button_clear():
     my_entry.delete(0,END)
 
